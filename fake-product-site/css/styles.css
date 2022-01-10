@@ -2,35 +2,6 @@ body {
     font-family: "Montserrat";
 }
 
-/* container around title section */
-.container-fluid {
-    /* bootstrap already has some for container-fluid here are extra */
-    padding: 3% 15%;   
-}
-
-/* title section */
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 500;
-}
-
-h3 {
-    font-size: 2rem;
-    font-weight: 600;
-    /* font-weight: bold; */
-}
-
-p {
-    color: #8f8f8f;
-}
-
 /* Navigation Bar */
 .navbar {
     /* padding-bottom: 4.5rem; */
@@ -51,6 +22,41 @@ p {
     font-size: 1.2rem;
 }
 
+/* container around title section */
+.container-fluid {
+    /* bootstrap already has some for container-fluid here are extra */
+    padding: 3% 15%;   
+}
+
+/* title section */
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    /* font-weight: bold; */
+}
+
+p {
+    color: #8f8f8f;
+}
+
 /* download buttons */
 .download-button {
     margin: 5% 3% 5% 0;
@@ -62,7 +68,7 @@ p {
     width: 60%;
 }
 
-/* features */
+/* features section */
 
 #features {
     padding: 7% 15%;
@@ -81,6 +87,69 @@ p {
 .feature-icon:hover {
     color: #FF8AAC;
 }
+
+/* testimonial section */
+
+#testimonials {
+    text-align: center;
+    background-color: #FF5733;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press section */
+#press {
+    background-color: #FF5733;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 10px 10px 50px;
+}
+
+/* pricing section */
+#pricing {
+    text-align: center;
+}
+#hold{
+    /* text-align: center; */
+    margin: 0 auto;
+}
+/* card */
+.card {
+    /* width: 300px; */
+    text-align: center;
+    /* margin: 2rem; */
+    /* padding: 0 15px 0 15px; */
+}
+
+.card-header {
+    padding: 0 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
