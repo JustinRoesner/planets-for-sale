@@ -25,7 +25,7 @@ body {
 /* container around title section */
 .container-fluid {
     /* bootstrap already has some for container-fluid here are extra */
-    padding: 3% 15%;   
+    padding: 3% 15% 7%;   
 }
 
 /* title section */
@@ -65,13 +65,18 @@ p {
 /* phone image */
 .phone-image {
     transform: rotate(25deg);
-    width: 60%;
+    width: 20%;
+    min-width: 300px;
+    position: absolute;
 }
 
 /* features section */
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
 }
 
 .feature-box {
@@ -106,7 +111,7 @@ p {
     margin: 20px;
 }
 
-/* press section */
+/* PRESS */
 #press {
     background-color: #FF5733;
     text-align: center;
@@ -118,39 +123,58 @@ p {
     margin: 10px 10px 50px;
 }
 
-/* pricing section */
+/* PRICE */
 #pricing {
+    padding: 7% 15%;
     text-align: center;
 }
-#hold{
-    /* text-align: center; */
-    margin: 0 auto;
-}
+
 /* card */
-.card {
-    /* width: 300px; */
+.price-box {
     text-align: center;
-    /* margin: 2rem; */
-    /* padding: 0 15px 0 15px; */
+    padding: 5%;
 }
 
-.card-header {
-    padding: 0 0 0 0;
+.card-body{
+    background-color: #fff2f5;
+
 }
 
+/* CALL TO ACTION  */
+#cta {
+    text-align: center;
+    padding: 7% 15% 10%;
+    background-color: #ff4c68;
 
+}
 
+.cta-text {
+    color: #fff;
 
+}
 
+/* FOOTER */
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #fff;
 
+}
 
+.social-icon {
+    margin: 0 15px 10px;
+    color: #969696;
+}
 
+@media (max-width: 1175px){
+    .phone-image {
+        position: static;
+        transform: rotate(0);
+    }
 
-
-
-
-
-
-
+    #title {
+        text-align: center;
+    }
+}
 
 
