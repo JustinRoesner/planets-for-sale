@@ -1,10 +1,10 @@
 body {
     font-family: "Montserrat";
+    text-align: center;
 }
 
 /* Navigation Bar */
 .navbar {
-    /* padding-bottom: 4.5rem; */
     padding: 0 0 4.5rem;
 }
 
@@ -30,8 +30,9 @@ body {
 
 /* title section */
 #title {
-    background-color: #ff4c68;
+    background-color: #3A2B53;
     color: #fff;
+    text-align: left;
 }
 
 h1 {
@@ -50,7 +51,6 @@ h2 {
 h3 {
     font-size: 2rem;
     font-weight: 600;
-    /* font-weight: bold; */
 }
 
 p {
@@ -80,12 +80,11 @@ p {
 }
 
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
 .feature-icon {
-    color: #FF5733;
+    color: #6E4EA3;
     margin-bottom: 1rem;
 }
 
@@ -96,8 +95,7 @@ p {
 /* testimonial section */
 
 #testimonials {
-    text-align: center;
-    background-color: #FF5733;
+    background-color: #3A2B53;
     color: #fff;
 }
 
@@ -113,8 +111,7 @@ p {
 
 /* PRESS */
 #press {
-    background-color: #FF5733;
-    text-align: center;
+    background-color: #3A2B53;
     padding-bottom: 3%;
 }
 
@@ -126,39 +123,31 @@ p {
 /* PRICE */
 #pricing {
     padding: 7% 15%;
-    text-align: center;
 }
 
 /* card */
 .price-box {
-    text-align: center;
     padding: 5%;
 }
 
 .card-body{
-    background-color: #fff2f5;
-
+    background-color: #EBECCE;
 }
 
 /* CALL TO ACTION  */
 #cta {
-    text-align: center;
     padding: 7% 15% 10%;
-    background-color: #ff4c68;
-
+    background-color: #3A2B53;
 }
 
 .cta-text {
     color: #fff;
-
 }
 
 /* FOOTER */
 #footer{
-    text-align: center;
     padding: 7% 15%;
     background-color: #fff;
-
 }
 
 .social-icon {
@@ -170,10 +159,6 @@ p {
     .phone-image {
         position: static;
         transform: rotate(0);
-    }
-
-    #title {
-        text-align: center;
     }
 }
 
