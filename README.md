@@ -1,4 +1,4 @@
-# Fake Product Site
+# Planets For Sale
 This project was an exercise in using HTML, CSS and Bootstrap to create a clean looking and responsive product landing page.  
 **HTML, CSS, Bootstrap** 
 
